@@ -80,8 +80,6 @@ duplication of work, and help you to craft the change so that it is successfully
 project.
 * **Small Changes** can be crafted and submitted to the [GitHub Repository][github] as a Pull Request.
 
- *[Website](http://www.getmdl.io/) related issues should be filed on the [Web Fundamentals](https://github.com/google/WebFundamentals/issues/new) issue tracker.*
-
 ## <a name="submit"></a> Submission Guidelines
 
 ### Submitting an Issue
@@ -222,7 +220,7 @@ changes to be accepted, the CLA must be signed. It's a quick process, we promise
 * For corporations we'll need you to
   [print, sign and one of scan+email, fax or mail the form][corporate-cla].
 
-*This guide was inspired by the AngularJS contribution guidelines*
+*This guide was inspired by the [AngularJS contribution guidelines](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md).*
 
 [github]: https://github.com/google/material-design-lite
 [individual-cla]: http://code.google.com/legal/individual-cla-v1.0.html
