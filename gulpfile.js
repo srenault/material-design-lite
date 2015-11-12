@@ -201,6 +201,7 @@ gulp.task('scripts', ['jscs', 'jshint'], function() {
     'src/third_party/**/*.js',
     // Base components
     'src/button/button.js',
+    'src/list/list-item.js',
     'src/checkbox/checkbox.js',
     'src/icon-toggle/icon-toggle.js',
     'src/menu/menu.js',
@@ -224,7 +225,7 @@ gulp.task('scripts', ['jscs', 'jshint'], function() {
     // Concatenate Scripts
     .pipe($.concat('material.js'))
     .pipe($.iife({
-      useStrict: true,
+      useStrict: true
     }))
     .pipe(gulp.dest('./dist'))
     // Minify Scripts

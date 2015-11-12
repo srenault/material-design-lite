@@ -10,6 +10,7 @@
 
 .mdl-list__item {
   @include typo-body-1();
+  position: relative;
   display: flex;
   box-sizing: border-box;
   height: 48px;
@@ -83,5 +84,22 @@
     height: 24px;
     padding: 0 0 0 56px;
     overflow: hidden;
+  }
+}
+
+// Ripples
+.mdl-list__item__ripple-container {
+  display: block;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+
+  .mdl-list__item[disabled] & .mdl-ripple,
+  .mdl-list__item.mdl-list__item--disabled & .mdl-ripple {
+      background-color: transparent;
   }
 }
